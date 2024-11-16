@@ -1,0 +1,13 @@
+name: Keep Render App Awake
+
+on:
+  schedule:
+    # Schedule the workflow to run every 10 minutes
+    - cron: "*/10 * * * *"
+
+jobs:
+  ping-render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send request to Render app
+        run: curl -I https://quantummindsclub.onrender.com/workshops/verify/ID
