@@ -2,4 +2,4 @@
 
 *An official research entity of UCER.* 
 
-[Quantum Minds](quantummindsclub.onrender.com)
+[Quantum Minds](https://quantummindsclub.onrender.com)
