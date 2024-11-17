@@ -3,7 +3,7 @@ name: Keep Render App Awake
 on:
   schedule:
     # Schedule the workflow to run every 10 minutes
-    - cron: "*/10 * * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   ping-render:
