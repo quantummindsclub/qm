@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send request to Render app
-        run: curl -I https://quantummindsclub.onrender.com/workshops/verify/UAVWKSHP2024111121220179/
+        run: curl -I https://quantummindsclub.onrender.com/workshops/verify/UAVWKSHP2024111121220179
